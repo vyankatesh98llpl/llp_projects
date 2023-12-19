@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>गाडी मालकाची माहीती</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+        html,
+        body {
+            min-height: 100%;
+        }
+        
+        body,
+        div,
+        form,
+        input,
+        select,
+        p {
+            padding: 0;
+            margin: 0;
+            outline: none;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        h1 {
+            margin: 0;
+            font-weight: 400;
+        }
+        
+        h3 {
+            margin: 12px 0;
+            color: #0EAB6B;
+        }
+        
+        .main-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+        }
+        
+        form {
+            width: 100%;
+            padding: 20px;
+        }
+        
+        fieldset {
+            border: none;
+            border-top: 1px solid #0EAB6B;
+        }
+ 
+        .account-details,
+        .personal-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .account-details>div,
+        .personal-details>div>div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .account-details>div,
+        .personal-details>div,
+        input,
+        label {
+            width: 100%;
+        }
+        
+        label {
+            padding: 0 5px;
+            text-align: right;
+            vertical-align: middle;
+        }
+        
+        input {
+            padding: 5px;
+            vertical-align: middle;
+        }
+        
+        .checkbox {
+            margin-bottom: 10px;
+        }
+        
+        select,
+        .children,
+        .gender,
+        .bdate-block {
+            width: calc(100% + 26px);
+            padding: 5px 0;
+        }
+        
+        select {
+            background: transparent;
+        }
+        
+        .gender input {
+            width: auto;
+        }
+        
+        .gender label {
+            padding: 0 5px 0 0;
+        }
+        
+        .bdate-block {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .birthdate select.day {
+            width: 35px;
+        }
+        
+        .birthdate select.mounth {
+            width: calc(100% - 94px);
+        }
+        
+        .birthdate input {
+            width: 38px;
+            vertical-align: unset;
+        }
+        
+        .checkbox input,
+        .children input {
+            width: auto;
+            margin: -2px 10px 0 0;
+        }
+        
+        .checkbox a {
+            color: #0EAB6B;
+        }
+        
+        .checkbox a:hover {
+            color: #030303;
+        }
+        
+        button {
+            width: 40%;
+            padding: 10px 0;
+            margin: 15px auto;
+            border-radius: 5px;
+            border: none;
+            background: #0EAB6B;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        button:hover {
+            background: #030303;
+        }
+        
+        @media (min-width: 568px) {
+            .account-details>div,
+            .personal-details>div {
+                width: 50%;
+            }
+            label {
+                width: 40%;
+            }
+            input {
+                width: 60%;
+            }
+            select,
+            .children,
+            .gender,
+            .bdate-block {
+                width: calc(60% + 16px);
+            }
+        }
+    </style>
+</head>
+<!-- </form><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNB7mX9zsYhF8JwCHhYCsG2FQ3kGwcSN6hOBxMy2jKyLWn4w/viewform?embedded=true" width="640" height="1517" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+<body>
+    <div class="main-block"> 
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfNB7mX9zsYhF8JwCHhYCsG2FQ3kGwcSN6hOBxMy2jKyLWn4w/formResponse" >
+            <h1>गाडी मालकाची माहिती </h1>
+            <fieldset>
+                <legend>
+                    <h3>मालकाची माहिती</h3>
+                </legend>
+                <div class="personal-details" style="width:1200px; margin:0 auto;">
+                    <div>
+                        <div><label>गाडी मालकाचे नाव*</label><input type="text" name="entry.2037871771" required></div>
+                        <div><label>मोबाईल नंबर*</label><input type="text" name="entry.1000969892" required></div>
+                        <div><label>मोबाईल नंबर 2*</label><input type="text" name="entry.248845579"></div>
+                        <div><label>घरील सद्यस्याचा मोबाईल नंबर*</label><input type="text" name="entry.1950409588" required></div>
+                        <div><label>गाडी नंबर</label><input type="text" name="entry.131767876"></div>
+                        <div><label>गाडी प्रकार*</label><input type="text" name="entry.1235513260" required></div>
+                        <div>
+                            <label>सध्याचा रहिवाशी पत्ता*</label>
+                            <input type="text" name="entry.51414197">
+                        </div>
+                        <div>
+                            <label>कायमचा रहिवाशी पत्ता*</label>
+                            <input type="text" name="entry.1215731574" required>
+                        </div>
+                        <div><label>तुमच्या कडे असणाऱ्या एकूण किती मालवाहतुक गाड्या आहेत..?</label><input type="text" name="entry.61378063"></div>
+                        <button type="submit" href="/">Submit</button>
+                    </div>
+ 
+                    
+                    
+                    </div>
+                </div>
+            </fieldset>
+            <div class="checkbox">
+                <input type="checkbox" name="name"><h4>वरील सर्व माहिती माझ्या व्यक्तिगत सत्य असून, वरील माहिती खोटी आढळून आल्यास भारतीय दंड संहिता अन्वये किंवा संबंधित कायद्यानुसार माझ्यावर खटला भरला जाईल व त्यानुसार मी शिक्षेस पात्र राहील याची मला पूर्ण जाणीव आहे आणि म्हणून मी हा फॉर्म भरून देत आहे.</h4>
+            </div>
+ 
+            
+        </form>
+        </div>
+<!-- Code injected by live-server -->
+<script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+        (function () {
+            function refreshCSS() {
+                var sheets = [].slice.call(document.getElementsByTagName("link"));
+                var head = document.getElementsByTagName("head")[0];
+                for (var i = 0; i < sheets.length; ++i) {
+                    var elem = sheets[i];
+                    var parent = elem.parentElement || head;
+                    parent.removeChild(elem);
+                    var rel = elem.rel;
+                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                        var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                        elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                    }
+                    parent.appendChild(elem);
+                }
+            }
+            var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+            var address = protocol + window.location.host + window.location.pathname + '/ws';
+            var socket = new WebSocket(address);
+            socket.onmessage = function (msg) {
+                if (msg.data == 'reload') window.location.reload();
+                else if (msg.data == 'refreshcss') refreshCSS();
+            };
+            if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                console.log('Live reload enabled.');
+                sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+            }
+        })();
+    }
+    else {
+        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+</script>
+</body>
+ 
+</html>
